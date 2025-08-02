@@ -41,9 +41,6 @@ def predict_sentiment(texts):
         })
     return results
 
-image_path = "/content/drive/MyDrive/data skripsi/panduan-daftar-aplikasi-signal-samsat-2025-cara-mudah-bayar-pajak-stnk-secara-online-tanpa-ribet.jpg"
-image = Image.open(image_path)
-st.image(image, width=200)
 
 st.title("📊 Analisis Sentimen Review Aplikasi SIGNAL ")
 st.markdown("Masukkan hingga 5 teks. Sistem akan memprediksi apakah sentimennya **positif** atau **negatif**, beserta persentasenya.")
